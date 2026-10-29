@@ -4,7 +4,7 @@
 
 ## 为什么有这个东西
 
-原本是一个 Chrome 插件（[web-video-audio-exporter](https://github.com/Changhuaishui/web-video-audio-exporter)），靠 `activeTab` 注入脚本读页面数据。网页没有这个权限，所以这里换了三条路：
+原本是一个 Chrome 插件，靠 `activeTab` 注入脚本读页面数据。网页没有这个权限，所以这里换了三条路：
 
 | 插件能力 | 网页版怎么实现 |
 | --- | --- |
