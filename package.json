@@ -1,0 +1,10 @@
+{
+  "name": "web-audio-exporter",
+  "version": "2.1.0",
+  "private": true,
+  "description": "网页音轨解析、标签页录音、本地视频提取音频，纯前端零构建。",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "start": "python -m http.server 8898 --bind 127.0.0.1"
+  }
+}
